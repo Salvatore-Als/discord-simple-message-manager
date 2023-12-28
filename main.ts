@@ -30,10 +30,6 @@ export default class App {
     run() {
         this.config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
 
-        if (!this.config) {
-            throw new Error("Invalid config file");
-        }
-
         this.client.login(this.config.TOKEN);
 
         this.client.once(Events.ClientReady, () => {
