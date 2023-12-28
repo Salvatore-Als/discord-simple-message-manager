@@ -1,0 +1,16 @@
+{
+  "name": "discord-simple-message-manager",
+  "version": "1.0.0",
+  "description": "This bot prevents double posts and single mentions.",
+  "main": "ts-node index.ts",
+  "scripts": {
+    "start": "ts-node bootstrap.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiax",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "ts-node": "^10.9.2"
+  }
+}

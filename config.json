@@ -1,0 +1,9 @@
+{
+    "TOKEN": "YOUR DISCORD BOT",
+    "ROLES_TRIGGER": [
+        "678266774625583173"
+    ],
+    "EXCLUDE_CHANNELS": [
+        "852597767511343104"
+    ]
+}
