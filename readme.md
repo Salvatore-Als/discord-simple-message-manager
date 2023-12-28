@@ -1,4 +1,4 @@
-This bot prevents double posts and single mentions.
+This bot prevents double posts and single mentions, created for Pylote.io
 ```
 {
     "TOKEN": "YOUR_DISCORD_BOT_TOKEN",
